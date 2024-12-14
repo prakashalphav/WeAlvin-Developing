@@ -15,7 +15,6 @@ View a list of all employees with search
 
 Display detailed information for each employee (e.g., name, position, department, contact info).
 Option to upload image file.
-Test
         
 # Tech Stack
 ### Frontend:
