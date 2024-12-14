@@ -14,7 +14,7 @@ View a list of all employees with search
 ### Employee Details:
 
 Display detailed information for each employee (e.g., name, position, department, contact info).
-Option to upload image file.
+Option to upload image file........
         
 # Tech Stack
 ### Frontend:
