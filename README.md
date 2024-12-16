@@ -31,7 +31,7 @@ MongoDB database for storing employee details.
 JWT (JSON Web Tokens) for user authentication .
 # Login Component:
 
-Form for entering credentials.
+Form for entering credentialss.
 Validation and error handling.
 Employee List Component:
 
