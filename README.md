@@ -8,7 +8,7 @@ Login/logout functionality for admin users
 #### Employee Management:
 
 Add new employees.
-Edit existing employee details.
+Edit existing employee detailss.
 Delete employees.
 View a list of all employees with search
 ### Employee Details:
