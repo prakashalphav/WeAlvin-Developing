@@ -10,7 +10,7 @@ export default function Search() {
         e.preventDefault();
         try {
             const { data } = await axios.get(
-                `https://backend-7-o9m5.onrender.com/api/employees/search/${values.keyword}`
+                `http://13.201.129.113:3000/api/employees/search/${values.keyword}`
             );
             setValues({ ...values, results: data });
             navigate("/search");
