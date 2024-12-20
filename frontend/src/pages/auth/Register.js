@@ -15,7 +15,7 @@ function Register() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const {data} = await axios.post('https://backend-7-o9m5.onrender.com/api/register', { name, email, password });
+            const {data} = await axios.post('http://13.201.129.113:3000/api/register', { name, email, password });
        
             if (data?.error){
               toast.error(data.error)
