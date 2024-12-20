@@ -15,7 +15,7 @@ function Login() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const {data} = await axios.post('https://backend-7-o9m5.onrender.com/api/login', { email, password });
+            const {data} = await axios.post('http://13.201.129.113:3000/api/login', { email, password });
             console.log(data)
             if (data?.error){
               toast.error(data.error)
