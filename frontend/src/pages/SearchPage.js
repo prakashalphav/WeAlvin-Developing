@@ -10,7 +10,7 @@ export default function SearchPage() {
                     <div className="col-md-4" key={employee._id}>
                         <div className="card mb-3">
                             <img 
-                                src={`https://backend-7-o9m5.onrender.com/api/employee/photo/${employee._id}`} 
+                                src={`http://13.201.129.113:3000/api/employee/photo/${employee._id}`} 
                                 alt={employee.f_Name} 
                                 className="card-img-top" 
                                 style={{ height: '200px', objectFit: 'cover' }} 
